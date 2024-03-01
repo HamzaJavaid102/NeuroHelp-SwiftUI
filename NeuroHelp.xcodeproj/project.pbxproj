@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB079BF92B80E46C0096058E /* NeuroHelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB079BF82B80E46C0096058E /* NeuroHelpApp.swift */; };
+		BB079BFB2B80E46C0096058E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB079BFA2B80E46C0096058E /* ContentView.swift */; };
+		BB079BFD2B80E46E0096058E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB079BFC2B80E46E0096058E /* Assets.xcassets */; };
+		BB079C002B80E46E0096058E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB079BFF2B80E46E0096058E /* Preview Assets.xcassets */; };
+		BB079C082B80E6400096058E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB079C072B80E6400096058E /* LoginView.swift */; };
+		BB2FFA6B2B8E0A49008D4B24 /* PatientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FFA6A2B8E0A49008D4B24 /* PatientsListView.swift */; };
+		BB2FFA6D2B8E0DC4008D4B24 /* PatientProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FFA6C2B8E0DC4008D4B24 /* PatientProgressView.swift */; };
+		BB5E89252B8760B400A7B7EA /* DoctorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E89242B8760B400A7B7EA /* DoctorHome.swift */; };
+		BB5E89272B87766100A7B7EA /* PatientHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E89262B87766100A7B7EA /* PatientHome.swift */; };
+		BB5E89292B887F8800A7B7EA /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E89282B887F8700A7B7EA /* ChatListView.swift */; };
+		BB5E892B2B887FBB00A7B7EA /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E892A2B887FBB00A7B7EA /* ChatView.swift */; };
+		BB660C532B8CF831005FF01F /* DoctorSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB660C522B8CF831005FF01F /* DoctorSessionView.swift */; };
+		BB71C70D2B8F0AD500ECE9B4 /* DoctorProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71C70C2B8F0AD500ECE9B4 /* DoctorProfileView.swift */; };
+		BB71C70F2B8F103200ECE9B4 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71C70E2B8F103200ECE9B4 /* WorkoutView.swift */; };
+		BB71C7142B8F433200ECE9B4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71C7132B8F433200ECE9B4 /* ChartView.swift */; };
+		BB71C7162B8F4A4A00ECE9B4 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71C7152B8F4A4A00ECE9B4 /* TodoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB079BF52B80E46C0096058E /* NeuroHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB079BF82B80E46C0096058E /* NeuroHelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroHelpApp.swift; sourceTree = "<group>"; };
+		BB079BFA2B80E46C0096058E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB079BFC2B80E46E0096058E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB079BFF2B80E46E0096058E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB079C072B80E6400096058E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BB2FFA6A2B8E0A49008D4B24 /* PatientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsListView.swift; sourceTree = "<group>"; };
+		BB2FFA6C2B8E0DC4008D4B24 /* PatientProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProgressView.swift; sourceTree = "<group>"; };
+		BB5E89242B8760B400A7B7EA /* DoctorHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHome.swift; sourceTree = "<group>"; };
+		BB5E89262B87766100A7B7EA /* PatientHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHome.swift; sourceTree = "<group>"; };
+		BB5E89282B887F8700A7B7EA /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		BB5E892A2B887FBB00A7B7EA /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		BB660C522B8CF831005FF01F /* DoctorSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSessionView.swift; sourceTree = "<group>"; };
+		BB71C70C2B8F0AD500ECE9B4 /* DoctorProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfileView.swift; sourceTree = "<group>"; };
+		BB71C70E2B8F103200ECE9B4 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		BB71C7132B8F433200ECE9B4 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		BB71C7152B8F4A4A00ECE9B4 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB079BF22B80E46C0096058E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB079BEC2B80E46C0096058E = {
+			isa = PBXGroup;
+			children = (
+				BB079BF72B80E46C0096058E /* NeuroHelp */,
+				BB079BF62B80E46C0096058E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB079BF62B80E46C0096058E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB079BF52B80E46C0096058E /* NeuroHelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB079BF72B80E46C0096058E /* NeuroHelp */ = {
+			isa = PBXGroup;
+			children = (
+				BB5E89232B87609600A7B7EA /* Patient */,
+				BB5E89222B87608700A7B7EA /* Doctor */,
+				BB079C062B80E5F50096058E /* Views */,
+				BB079BF82B80E46C0096058E /* NeuroHelpApp.swift */,
+				BB079BFA2B80E46C0096058E /* ContentView.swift */,
+				BB079BFC2B80E46E0096058E /* Assets.xcassets */,
+				BB079BFE2B80E46E0096058E /* Preview Content */,
+			);
+			path = NeuroHelp;
+			sourceTree = "<group>";
+		};
+		BB079BFE2B80E46E0096058E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB079BFF2B80E46E0096058E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB079C062B80E5F50096058E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB079C072B80E6400096058E /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB5E89222B87608700A7B7EA /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				BB5E89242B8760B400A7B7EA /* DoctorHome.swift */,
+				BB5E89282B887F8700A7B7EA /* ChatListView.swift */,
+				BB5E892A2B887FBB00A7B7EA /* ChatView.swift */,
+				BB660C522B8CF831005FF01F /* DoctorSessionView.swift */,
+				BB2FFA6A2B8E0A49008D4B24 /* PatientsListView.swift */,
+				BB2FFA6C2B8E0DC4008D4B24 /* PatientProgressView.swift */,
+				BB71C70C2B8F0AD500ECE9B4 /* DoctorProfileView.swift */,
+				BB71C70E2B8F103200ECE9B4 /* WorkoutView.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		BB5E89232B87609600A7B7EA /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				BB5E89262B87766100A7B7EA /* PatientHome.swift */,
+				BB71C7132B8F433200ECE9B4 /* ChartView.swift */,
+				BB71C7152B8F4A4A00ECE9B4 /* TodoView.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB079BF42B80E46C0096058E /* NeuroHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB079C032B80E46E0096058E /* Build configuration list for PBXNativeTarget "NeuroHelp" */;
+			buildPhases = (
+				BB079BF12B80E46C0096058E /* Sources */,
+				BB079BF22B80E46C0096058E /* Frameworks */,
+				BB079BF32B80E46C0096058E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroHelp;
+			packageProductDependencies = (
+			);
+			productName = NeuroHelp;
+			productReference = BB079BF52B80E46C0096058E /* NeuroHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB079BED2B80E46C0096058E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					BB079BF42B80E46C0096058E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = BB079BF02B80E46C0096058E /* Build configuration list for PBXProject "NeuroHelp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB079BEC2B80E46C0096058E;
+			packageReferences = (
+			);
+			productRefGroup = BB079BF62B80E46C0096058E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB079BF42B80E46C0096058E /* NeuroHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB079BF32B80E46C0096058E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB079C002B80E46E0096058E /* Preview Assets.xcassets in Resources */,
+				BB079BFD2B80E46E0096058E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB079BF12B80E46C0096058E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5E89292B887F8800A7B7EA /* ChatListView.swift in Sources */,
+				BB2FFA6B2B8E0A49008D4B24 /* PatientsListView.swift in Sources */,
+				BB079C082B80E6400096058E /* LoginView.swift in Sources */,
+				BB71C7162B8F4A4A00ECE9B4 /* TodoView.swift in Sources */,
+				BB71C7142B8F433200ECE9B4 /* ChartView.swift in Sources */,
+				BB5E892B2B887FBB00A7B7EA /* ChatView.swift in Sources */,
+				BB5E89272B87766100A7B7EA /* PatientHome.swift in Sources */,
+				BB660C532B8CF831005FF01F /* DoctorSessionView.swift in Sources */,
+				BB71C70F2B8F103200ECE9B4 /* WorkoutView.swift in Sources */,
+				BB71C70D2B8F0AD500ECE9B4 /* DoctorProfileView.swift in Sources */,
+				BB079BFB2B80E46C0096058E /* ContentView.swift in Sources */,
+				BB5E89252B8760B400A7B7EA /* DoctorHome.swift in Sources */,
+				BB079BF92B80E46C0096058E /* NeuroHelpApp.swift in Sources */,
+				BB2FFA6D2B8E0DC4008D4B24 /* PatientProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB079C012B80E46E0096058E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB079C022B80E46E0096058E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB079C042B80E46E0096058E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroHelp/Preview Content\"";
+				DEVELOPMENT_TEAM = P22MHGJ6AP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamza.NeuroHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB079C052B80E46E0096058E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroHelp/Preview Content\"";
+				DEVELOPMENT_TEAM = P22MHGJ6AP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamza.NeuroHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB079BF02B80E46C0096058E /* Build configuration list for PBXProject "NeuroHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB079C012B80E46E0096058E /* Debug */,
+				BB079C022B80E46E0096058E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB079C032B80E46E0096058E /* Build configuration list for PBXNativeTarget "NeuroHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB079C042B80E46E0096058E /* Debug */,
+				BB079C052B80E46E0096058E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB079BED2B80E46C0096058E /* Project object */;
+}
